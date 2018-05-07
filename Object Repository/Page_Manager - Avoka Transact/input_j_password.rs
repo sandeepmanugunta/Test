@@ -3,7 +3,7 @@
    <description></description>
    <name>input_j_password</name>
    <tag></tag>
-   <elementGuidId>e2ddcaa7-31eb-4fc8-a40e-7d437d15c5b2</elementGuidId>
+   <elementGuidId>cdad5714-c12d-489c-bc21-3ade88f31894</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

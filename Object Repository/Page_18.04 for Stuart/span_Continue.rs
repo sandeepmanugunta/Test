@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Continue</name>
+   <tag></tag>
+   <elementGuidId>808c3ffb-2495-4777-8f04-ce73f6c3ea5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;av-form Chrome form-loaded&quot;]/form[@class=&quot;container-fluid av-optional id-AvokaSmartForm av-focus-styling mg-base mg-form av-item-container ng-pristine ng-valid ng-scope ng-valid-maxlength&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/nav[@class=&quot;av-optional id-nav_wizard_bar nav-wizard-bar col-xs-12 col-sm-12 col-md-12 col-lg-12 av-item-container ng-scope&quot;]/div[@class=&quot;av-menu-wizard-bar container-fluid ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;av-optional id-wizard_continue nav-wizard-button nav-wizard-continue-button col-xs-12 col-sm-12 col-md-12 col-lg-12 av-item-container ng-scope&quot;]/button[@class=&quot;btn wdg-button&quot;]/span[@class=&quot;wdg-button-label&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wdg-button-label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;av-form Chrome form-loaded&quot;]/form[@class=&quot;container-fluid av-optional id-AvokaSmartForm av-focus-styling mg-base mg-form av-item-container ng-pristine ng-valid ng-scope ng-valid-maxlength&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/nav[@class=&quot;av-optional id-nav_wizard_bar nav-wizard-bar col-xs-12 col-sm-12 col-md-12 col-lg-12 av-item-container ng-scope&quot;]/div[@class=&quot;av-menu-wizard-bar container-fluid ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;av-optional id-wizard_continue nav-wizard-button nav-wizard-continue-button col-xs-12 col-sm-12 col-md-12 col-lg-12 av-item-container ng-scope&quot;]/button[@class=&quot;btn wdg-button&quot;]/span[@class=&quot;wdg-button-label&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

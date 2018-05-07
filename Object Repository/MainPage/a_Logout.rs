@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Logout</name>
    <tag></tag>
-   <elementGuidId>337ad654-a83d-445e-a025-bd0b6ffd1e05</elementGuidId>
+   <elementGuidId>a9155b25-9afd-4809-8254-227481d18177</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tm.test1.avoka.com/manager/logout?_wid=75</value>
+      <value>https://tm.test1.avoka.com/manager/logout?_wid=7</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_Forms2</name>
    <tag></tag>
-   <elementGuidId>337ad654-a83d-445e-a025-bd0b6ffd1e05</elementGuidId>
+   <elementGuidId>1c42645c-7725-4b3f-892b-d6e60d07c710</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
+         <value>//*[@id = 'm5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,31 +20,32 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>logoutText</value>
+      <value>m5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tm.test1.avoka.com/manager/logout?_wid=75</value>
+      <value>https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=75</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
+      <value>
+ Forms</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bannerUser&quot;)/a[@class=&quot;logoutText&quot;]</value>
+      <value>id(&quot;root-menu-div&quot;)/div[@class=&quot;menu-div outerbox&quot;]/ul[@class=&quot;menu-ul innerbox&quot;]/li[@class=&quot;menuitem active&quot;]/div[@class=&quot;menu-item&quot;]/a[@id=&quot;m6&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

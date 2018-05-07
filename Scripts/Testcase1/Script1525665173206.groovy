@@ -22,43 +22,44 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+'Open Url\r\n'
 WebUI.navigateToUrl('https://tm.test1.avoka.com/manager/login.htm')
 
-WebUI.setText(findTestObject('Page_Manager - Avoka Transact/input_j_username'), 'smanugunta@avoka.com')
+WebUI.setText(findTestObject('MainPage/input_j_username'), 'smanugunta@avoka.com')
 
-WebUI.setText(findTestObject('Page_Manager - Avoka Transact/input_j_password'), 'Unicorn!23')
+WebUI.setText(findTestObject('MainPage/input_j_password'), 'Unicorn!23')
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/input_btn btn-primary'))
+WebUI.click(findTestObject('MainPage/input_btn btn-primary'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Form Spaces'))
+WebUI.click(findTestObject('MainPage/a_Form Spaces'))
 
-WebUI.setText(findTestObject('Page_Manager - Avoka Transact/input_searchField'), 'test')
+WebUI.setText(findTestObject('MainPage/input_searchField'), 'test')
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/input_search'))
+WebUI.click(findTestObject('MainPage/input_search'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Home'))
+WebUI.click(findTestObject('MainPage/a_Home'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Organizations'))
+WebUI.click(findTestObject('MainPage/a_Organizations'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/input_Save'))
+WebUI.click(findTestObject('MainPage/input_Save'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Home'))
+WebUI.click(findTestObject('MainPage/a_Home'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Import Application'))
+WebUI.click(findTestObject('MainPage/a_Import Application'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/input_upload'))
+WebUI.click(findTestObject('MainPage/input_upload'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Home'))
+WebUI.click(findTestObject('MainPage/a_Home'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Import Form'))
+WebUI.click(findTestObject('MainPage/a_Import Form'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/form_Form Version Archive File'))
+WebUI.click(findTestObject('MainPage/form_Form Version Archive File'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/input_upload'))
+WebUI.click(findTestObject('MainPage/input_upload'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Home'))
+WebUI.click(findTestObject('MainPage/a_Home'))
 
-WebUI.click(findTestObject('Page_Manager - Avoka Transact/a_Logout'))
+WebUI.click(findTestObject('MainPage/a_Logout'))
 
 WebUI.closeBrowser()
 

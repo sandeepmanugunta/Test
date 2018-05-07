@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_Forms1</name>
    <tag></tag>
-   <elementGuidId>337ad654-a83d-445e-a025-bd0b6ffd1e05</elementGuidId>
+   <elementGuidId>ae02ed2e-a80f-4cdc-9a0f-1e7da1663e9e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
+         <value>//*[@id = 'm6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,31 +24,32 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>logoutText</value>
+      <value>m6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://tm.test1.avoka.com/manager/logout?_wid=75</value>
+      <value>https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=75</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
+      <value>
+ Forms</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bannerUser&quot;)/a[@class=&quot;logoutText&quot;]</value>
+      <value>id(&quot;root-menu-div&quot;)/div[@class=&quot;menu-div outerbox&quot;]/ul[@class=&quot;menu-ul innerbox&quot;]/li[@class=&quot;menuitem active&quot;]/div[@class=&quot;menu-item&quot;]/a[@id=&quot;m6&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

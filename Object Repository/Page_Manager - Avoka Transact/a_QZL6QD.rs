@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Logout</name>
+   <name>a_QZL6QD</name>
    <tag></tag>
-   <elementGuidId>337ad654-a83d-445e-a025-bd0b6ffd1e05</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Logout' or . = 'Logout')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>08728703-083c-49ad-aecf-2a00006a3c01</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>logoutText</value>
+      <value>https://tm.test1.avoka.com/manager/admin/submission/submission-view.htm?tabPanelIndex=0&amp;entityId=208120&amp;wid=75&amp;_wid=75</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>https://tm.test1.avoka.com/manager/logout?_wid=75</value>
+      <value>tablePageLink</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Logout</value>
+      <value>QZL6QD</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;bannerUser&quot;)/a[@class=&quot;logoutText&quot;]</value>
+      <value>id(&quot;table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[2]/a[@class=&quot;tablePageLink&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
