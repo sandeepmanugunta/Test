@@ -4,6 +4,13 @@
    <name>input_upload</name>
    <tag></tag>
    <elementGuidId>2b8094ba-846d-4c4a-9976-d1ef47bdbc35</elementGuidId>
+   <imagePath>../../Desktop/Regular Task/download.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @name = 'upload' and @id = 'form_upload']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

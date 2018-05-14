@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="48" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="48" timestamp="2018-05-07 14:05:51" hostname="smanugunta - USR-SMANUGUNTA1.avoka.local" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140550"/>
+         <property name="logFiles" value="C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140550\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="smanugunta - USR-SMANUGUNTA1.avoka.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.20.233"/>
+         <property name="sessionId" value="aaf4ac5331c374c1ce4952bb373b958a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testcase1" classname="Test Cases/Testcase1" status="PASSED">
+         <system-out><![CDATA[2018-05-07 14:05:51 - [TEST_CASE][PASSED] - Test Cases/Testcase1: Test Cases/Testcase1
+
+2018-05-07 14:05:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 14:05:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 14:05:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:05:57 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:05:57 - [TEST_STEP][PASSED] - setText: Text 'smanugunta@avoka.com' is set on object 'Object Repository/MainPage/input_j_username'
+
+2018-05-07 14:05:57 - [MESSAGE][PASSED] - Text 'smanugunta@avoka.com' is set on object 'Object Repository/MainPage/input_j_username'
+
+2018-05-07 14:05:57 - [TEST_STEP][PASSED] - setText: Text 'Unicorn!23' is set on object 'Object Repository/MainPage/input_j_password'
+
+2018-05-07 14:05:57 - [MESSAGE][PASSED] - Text 'Unicorn!23' is set on object 'Object Repository/MainPage/input_j_password'
+
+2018-05-07 14:05:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_btn btn-primary' is clicked on
+
+2018-05-07 14:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_btn btn-primary' is clicked on
+
+2018-05-07 14:06:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Form Spaces' is clicked on
+
+2018-05-07 14:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Form Spaces' is clicked on
+
+2018-05-07 14:06:03 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/MainPage/input_searchField'
+
+2018-05-07 14:06:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/MainPage/input_searchField'
+
+2018-05-07 14:06:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_search' is clicked on
+
+2018-05-07 14:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_search' is clicked on
+
+2018-05-07 14:06:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-07 14:06:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-07 14:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Organizations' is clicked on
+
+2018-05-07 14:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Organizations' is clicked on
+
+2018-05-07 14:06:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_Save' is clicked on
+
+2018-05-07 14:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_Save' is clicked on
+
+2018-05-07 14:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Import Application' is clicked on
+
+2018-05-07 14:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Import Application' is clicked on
+
+2018-05-07 14:06:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_upload' is clicked on
+
+2018-05-07 14:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_upload' is clicked on
+
+2018-05-07 14:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Import Form' is clicked on
+
+2018-05-07 14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Import Form' is clicked on
+
+2018-05-07 14:06:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/form_Form Version Archive File' is clicked on
+
+2018-05-07 14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/form_Form Version Archive File' is clicked on
+
+2018-05-07 14:06:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_upload' is clicked on
+
+2018-05-07 14:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_upload' is clicked on
+
+2018-05-07 14:06:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:06:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Logout' is clicked on
+
+2018-05-07 14:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Logout' is clicked on
+
+2018-05-07 14:06:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-07 14:06:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase2" classname="Test Cases/Testcase2" status="PASSED">
+         <system-out><![CDATA[2018-05-07 14:06:17 - [TEST_CASE][PASSED] - Test Cases/Testcase2: Test Cases/Testcase2
+
+2018-05-07 14:06:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 14:06:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 14:06:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:06:21 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:06:21 - [TEST_STEP][PASSED] - setText: Text 'smanugunta@avoka.com' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_username'
+
+2018-05-07 14:06:21 - [MESSAGE][PASSED] - Text 'smanugunta@avoka.com' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_username'
+
+2018-05-07 14:06:21 - [TEST_STEP][PASSED] - setText: Text 'Unicorn!23' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_password'
+
+2018-05-07 14:06:21 - [MESSAGE][PASSED] - Text 'Unicorn!23' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_password'
+
+2018-05-07 14:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/input_btn btn-primary' is clicked on
+
+2018-05-07 14:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/input_btn btn-primary' is clicked on
+
+2018-05-07 14:06:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Forms2' is clicked on
+
+2018-05-07 14:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Forms2' is clicked on
+
+2018-05-07 14:06:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=15' successfully
+
+2018-05-07 14:06:30 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=15' successfully
+
+2018-05-07 14:06:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/Navigate' is clicked on
+
+2018-05-07 14:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/Navigate' is clicked on
+
+2018-05-07 14:06:30 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: '18.04 for Stuart'
+
+2018-05-07 14:06:34 - [MESSAGE][PASSED] - Switched to window with title: '18.04 for Stuart'
+
+2018-05-07 14:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_18.04 for Stuart/span_Continue' is clicked on
+
+2018-05-07 14:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_18.04 for Stuart/span_Continue' is clicked on
+
+2018-05-07 14:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_18.04 for Stuart/span_Submit' is clicked on
+
+2018-05-07 14:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_18.04 for Stuart/span_Submit' is clicked on
+
+2018-05-07 14:06:35 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Manager - Avoka Transact'
+
+2018-05-07 14:06:35 - [MESSAGE][PASSED] - Switched to window with title: 'Manager - Avoka Transact'
+
+2018-05-07 14:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Operations' is clicked on
+
+2018-05-07 14:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Operations' is clicked on
+
+2018-05-07 14:06:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/admin/submission/submission-search.htm?_wid=31' successfully
+
+2018-05-07 14:06:36 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/admin/submission/submission-search.htm?_wid=31' successfully
+
+2018-05-07 14:06:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Logout' is clicked on
+
+2018-05-07 14:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Logout' is clicked on
+
+2018-05-07 14:06:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-07 14:06:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 14:05:51 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Testcase2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

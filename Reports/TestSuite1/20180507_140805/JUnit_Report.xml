@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="63" tests="1" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="1" errors="0" time="63" timestamp="2018-05-07 14:08:06" hostname="smanugunta - USR-SMANUGUNTA1.avoka.local" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140805"/>
+         <property name="logFiles" value="C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140805\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140805\\1525666128870.png"/>
+         <property name="hostName" value="smanugunta - USR-SMANUGUNTA1.avoka.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.20.233"/>
+         <property name="sessionId" value="8b1f7434859181872151c1d4397c2d58"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Testcase1" classname="Test Cases/Testcase1" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)"/>
+         <system-out><![CDATA[2018-05-07 14:08:07 - [TEST_CASE][FAILED] - Test Cases/Testcase1: Test Cases/Testcase1 FAILED because (of) Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)
+
+2018-05-07 14:08:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 14:08:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 14:08:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:08:12 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:08:12 - [TEST_STEP][PASSED] - setText: Text 'smanugunta@avoka.com' is set on object 'Object Repository/MainPage/input_j_username'
+
+2018-05-07 14:08:12 - [MESSAGE][PASSED] - Text 'smanugunta@avoka.com' is set on object 'Object Repository/MainPage/input_j_username'
+
+2018-05-07 14:08:12 - [TEST_STEP][PASSED] - setText: Text 'Unicorn!23' is set on object 'Object Repository/MainPage/input_j_password'
+
+2018-05-07 14:08:12 - [MESSAGE][PASSED] - Text 'Unicorn!23' is set on object 'Object Repository/MainPage/input_j_password'
+
+2018-05-07 14:08:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_btn btn-primary' is clicked on
+
+2018-05-07 14:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_btn btn-primary' is clicked on
+
+2018-05-07 14:08:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Form Spaces' is clicked on
+
+2018-05-07 14:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Form Spaces' is clicked on
+
+2018-05-07 14:08:16 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/MainPage/input_searchField'
+
+2018-05-07 14:08:16 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/MainPage/input_searchField'
+
+2018-05-07 14:08:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/input_search' is clicked on
+
+2018-05-07 14:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/input_search' is clicked on
+
+2018-05-07 14:08:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/a_Home' is clicked on
+
+2018-05-07 14:08:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-07 14:08:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-07 14:08:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)
+
+2018-05-07 14:08:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\smanugunta\\git\\Test\\Reports\\TestSuite1\\20180507_140805\\1525666128870.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 14:08:07 - [TEST_CASE][FAILED] - Test Cases/Testcase1: Test Cases/Testcase1 FAILED because (of) Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testcase2" classname="Test Cases/Testcase2" status="PASSED">
+         <system-out><![CDATA[2018-05-07 14:08:51 - [TEST_CASE][PASSED] - Test Cases/Testcase2: Test Cases/Testcase2
+
+2018-05-07 14:08:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 14:08:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-07 14:08:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 14:08:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:08:56 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/login.htm' successfully
+
+2018-05-07 14:08:56 - [TEST_STEP][PASSED] - setText: Text 'smanugunta@avoka.com' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_username'
+
+2018-05-07 14:08:56 - [MESSAGE][PASSED] - Text 'smanugunta@avoka.com' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_username'
+
+2018-05-07 14:08:56 - [TEST_STEP][PASSED] - setText: Text 'Unicorn!23' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_password'
+
+2018-05-07 14:08:56 - [MESSAGE][PASSED] - Text 'Unicorn!23' is set on object 'Object Repository/Page_Manager - Avoka Transact/input_j_password'
+
+2018-05-07 14:08:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/input_btn btn-primary' is clicked on
+
+2018-05-07 14:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/input_btn btn-primary' is clicked on
+
+2018-05-07 14:08:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Forms2' is clicked on
+
+2018-05-07 14:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Forms2' is clicked on
+
+2018-05-07 14:08:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=15' successfully
+
+2018-05-07 14:09:00 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/admin/form/form-search.htm?_wid=15' successfully
+
+2018-05-07 14:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/Navigate' is clicked on
+
+2018-05-07 14:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/Navigate' is clicked on
+
+2018-05-07 14:09:00 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: '18.04 for Stuart'
+
+2018-05-07 14:09:06 - [MESSAGE][PASSED] - Switched to window with title: '18.04 for Stuart'
+
+2018-05-07 14:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_18.04 for Stuart/span_Continue' is clicked on
+
+2018-05-07 14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_18.04 for Stuart/span_Continue' is clicked on
+
+2018-05-07 14:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_18.04 for Stuart/span_Submit' is clicked on
+
+2018-05-07 14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_18.04 for Stuart/span_Submit' is clicked on
+
+2018-05-07 14:09:06 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Manager - Avoka Transact'
+
+2018-05-07 14:09:06 - [MESSAGE][PASSED] - Switched to window with title: 'Manager - Avoka Transact'
+
+2018-05-07 14:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Operations' is clicked on
+
+2018-05-07 14:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Operations' is clicked on
+
+2018-05-07 14:09:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://tm.test1.avoka.com/manager/admin/submission/submission-search.htm?_wid=31' successfully
+
+2018-05-07 14:09:07 - [MESSAGE][PASSED] - Navigate to 'https://tm.test1.avoka.com/manager/admin/submission/submission-search.htm?_wid=31' successfully
+
+2018-05-07 14:09:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Manager - Avoka Transact/a_Logout' is clicked on
+
+2018-05-07 14:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manager - Avoka Transact/a_Logout' is clicked on
+
+2018-05-07 14:09:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-07 14:09:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 14:08:06 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Testcase1 FAILED because (of) Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-07 14:08:06 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Testcase1 FAILED because (of) Unable to click on object 'Object Repository/MainPage/a_Organizations' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MainPage/a_Organizations' located by 'By.xpath: ' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -39,6 +39,8 @@ WebUI.click(findTestObject('MainPage/input_search'))
 
 WebUI.click(findTestObject('MainPage/a_Home'))
 
+WebUI.waitForPageLoad(2)
+
 WebUI.click(findTestObject('MainPage/a_Organizations'))
 
 WebUI.click(findTestObject('MainPage/input_Save'))
